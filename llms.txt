@@ -1,0 +1,14 @@
+# multi-tenant-router
+> Tenant resolution with isolation: hostname, header, and path-based routing
+
+Tenant resolution + isolation. Extract tenant from hostname (acme.app.com → acme), header (X-Tenant-Id), or path (/t/acme/...) in configurable order. Per-tenant registry with isolated get/set — no cross-tenant data leaks. ```typescript import { MultiTenantRouter } from 'multi-tenant-router';
+
+## API
+- `ResolveResult`
+- `UnknownTenantError`
+- `MultiTenantRouter`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
