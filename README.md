@@ -1,4 +1,5 @@
 # multi-tenant-router
+![CI](https://github.com/FerrowAI/multi-tenant-router/actions/workflows/ci.yml/badge.svg)
 
 Tenant resolution + isolation. Extract tenant from hostname (acme.app.com → acme), header (X-Tenant-Id), or path (/t/acme/...) in configurable order. Per-tenant registry with isolated get/set — no cross-tenant data leaks.
 
