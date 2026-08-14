@@ -1,1 +1,22 @@
-{"name":"multi-tenant-router","version":"1.0.0","description":"Tenant resolution with isolation: hostname, header, and path-based routing","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["multi-tenant","routing","isolation","resolver","saas"],"author":"Ruzylo-cloud","license":"MIT","devDependencies":{"typescript":"^5.0.0"}}
+{
+  "name": "@ferrow/multi-tenant-router",
+  "version": "1.0.0",
+  "description": "Tenant resolution with isolation: hostname, header, and path-based routing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "multi-tenant",
+    "routing",
+    "isolation",
+    "resolver",
+    "saas"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
